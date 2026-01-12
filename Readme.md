@@ -34,10 +34,13 @@ The application is a simple FastAPI-based web app that lists Amazon S3 buckets u
 ├── Dockerfile          # Container configuration
 ├── requirements.txt    # Python dependencies
 └── index.html          # Simple frontend page
-Architecture
+---
 
-## The diagram below shows how the web application securely retrieves AWS credentials at runtime using AWS Secrets Manager instead of hardcoding them in source code.
+## 🧭 Architecture
 
+The diagram below shows how the web application securely retrieves AWS credentials at runtime using AWS Secrets Manager instead of hardcoding them in source code.
+
+```mermaid
 flowchart LR
     User[User Browser] --> App[FastAPI Web App]
     App -->|boto3 SDK| Secrets[AWS Secrets Manager]
