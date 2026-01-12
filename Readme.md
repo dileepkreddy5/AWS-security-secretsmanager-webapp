@@ -28,7 +28,7 @@ The application is a simple FastAPI-based web app that lists Amazon S3 buckets u
 
 ## 📂 Project Structure
 
-![AWS Secrets Manager Architecture](docs/architecture.png)
+![AWS Secrets Manager Architecture](docs/workflow.png)
 ---
 
 ## 🧭 Architecture
