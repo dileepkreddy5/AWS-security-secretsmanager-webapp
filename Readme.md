@@ -26,16 +26,19 @@ The application is a simple FastAPI-based web app that lists Amazon S3 buckets u
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure & Workflow
 
-![AWS Secrets Manager Architecture](workflow.png)
+The diagram below shows the overall project workflow, including how the code evolved from insecure credential handling to a secure implementation.
+
+![Project Workflow](Workflow.png)
+
 ---
 
-## 🧭 Architecture
+## 🧭 Architecture (Secrets Manager)
 
 The diagram below shows how the web application securely retrieves AWS credentials at runtime using AWS Secrets Manager instead of hardcoding them in source code.
 
-![AWS Secrets Manager Architecture](docs/architecture.png)
+![Secrets Manager Architecture](Docs/Architecture_SecretsManager.png)
 
 ---
 
