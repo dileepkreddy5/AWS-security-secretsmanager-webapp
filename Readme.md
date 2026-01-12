@@ -38,7 +38,7 @@ The diagram below shows the overall project workflow, including how the code evo
 
 The diagram below shows how the web application securely retrieves AWS credentials at runtime using AWS Secrets Manager instead of hardcoding them in source code.
 
-![Secrets Manager Architecture](Docs/Architecture_SecretsManager.png)
+![Secrets Manager Architecture](Architecture_SecretsManager.png)
 
 ---
 
