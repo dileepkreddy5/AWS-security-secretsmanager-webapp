@@ -51,8 +51,10 @@ python app.py
 ## Open in your browser:
 http://0.0.0.0:8000
 
-## Notes:
-AWS credentials are not stored in the repository
-Secrets are encrypted and managed via AWS Secrets Manager
-This project was built as part of a guided learning lab and customized to demonstrate secure cloud development practices
+## 📝 Notes
+
+- AWS credentials are **not stored in the repository**
+- Secrets are encrypted and managed via **AWS Secrets Manager**
+- This project was built as part of a guided learning lab and customized to demonstrate secure cloud development practices
+
 
