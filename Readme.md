@@ -28,9 +28,19 @@ The application is a simple FastAPI-based web app that lists Amazon S3 buckets u
 
 ## 📂 Project Structure
 
-```text
-├── app.py              # FastAPI application
-├── config.py           # Retrieves credentials from Secrets Manager
-├── Dockerfile          # Container configuration
-├── requirements.txt    # Python dependencies
-└── index.html          # Simple frontend page
+![AWS Secrets Manager Architecture](docs/architecture.png)
+---
+
+## 🧭 Architecture
+
+The diagram below shows how the web application securely retrieves AWS credentials at runtime using AWS Secrets Manager instead of hardcoding them in source code.
+
+![AWS Secrets Manager Architecture](docs/architecture.png)
+
+---
+
+## ▶️ Running the App Locally
+
+```bash
+pip install -r requirements.txt
+python app.py
